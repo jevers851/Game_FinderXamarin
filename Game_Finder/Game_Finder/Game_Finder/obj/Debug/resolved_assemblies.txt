@@ -1,0 +1,13 @@
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\Game_Finder.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\System.Core.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\System.Data.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\System.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\Mono.Data.Tds.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\Mono.Security.dll
+C:\Users\Josh\Documents\Visual Studio 2013\Projects\Game_Finder\Game_Finder\Game_Finder\Game_Finder\Game_Finder\obj\Debug\assemblies\System.Transactions.dll

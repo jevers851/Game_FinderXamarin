@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Game Finder</string>
+  <!-- Create Account Strings-->
+  <string name="registerFirst">First Name</string>
+  <string name="registerLast">Last Name</string>
+  <string name="registerZip">Zip Code</string>
+  <string name="registerPhone">Phone</string>
+  <string name="registerEmail">Email</string>
+  <string name="registerPassword">Password</string>
+  <string name="registerPasswordConfirm">Password (confirm)</string>
+  <string name="btnRegisterCreateAccount">Create Account</string>
+
+  <!--Detailed_Listing Strings-->
+  <string name="listingEmail">Email: </string>
+  <string name="listingPhone">Phone: </string>
+  <string name="listingName">Name: </string>
+  <string name="listingSystem">System: </string>
+  <string name="listingPublisher">Publisher: </string>
+  <string name="listingQuality">Quality: </string>
+  <string name="listingStatus">Status: </string>
+  <string name="listingPrice">Price: </string>
+  <string name="listingDesc">Description: </string>
+  <string name="btnContact">Contact</string>
+  
+  <!--EditListing Strings-->
+  <string name="btnUpdateListing">Update Listing</string>
+  <string name="btnDeleteListing">Delete Listing</string>
+  
+  <!-- Settings Page Strings-->
+  <string name="settingsAbout">About</string>
+  <string name="settingsLocation">Use Your Location</string>
+    
+  <!-- My Profile Page Strings -->
+  <string name="btnProfileMyListings">My Listings</string>
+  <string name="btnCreateListing">Create Listing</string>
+  
+  <!-- Create Listing Strings -->
+  <string name="createTitle">Posting Title: </string>
+  <string name="createPrice">Price $: </string>
+  <string name="createDescription">Description: </string>
+  <string name="createGameTitle">Game Title: </string>
+  <string name="createGameSystem">Game System</string>
+  <string name="createCondition">Condition</string>
+  <string name="btnCreatePosting">Create Posting</string>
+  
+  <!-- About Us Strings -->
+  <string name="aboutTopData">This is the game finder application. It was designed to be a standalone product. Thus Realistically in the future it could be developed fruther from this shell application.</string>
+  <string name="middleData"> </string>
+</resources>
+

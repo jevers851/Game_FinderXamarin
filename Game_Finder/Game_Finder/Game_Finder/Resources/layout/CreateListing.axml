@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent">
+    <android.support.v7.widget.Toolbar
+        p1:id="@+id/toolbar"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:minHeight="?attr/actionBarSize"
+        p1:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+    <android.support.v4.widget.DrawerLayout
+        p1:id="@+id/drawer_layout"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent">
+    <!-- Main Content -->
+        <ScrollView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:background="#232323"
+            p1:textColor="#F5F5F5">
+            <RelativeLayout
+                p1:layout_width="match_parent"
+                p1:layout_height="800px"
+                p1:background="#232323"
+                p1:textColor="#F5F5F5">
+                <TextView
+                    p1:text="@string/createTitle"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/lblPostingTitle"
+                    p1:textAlignment="center"
+                    p1:layout_marginLeft="5dp"
+                    p1:textColor="#F5F5F5" />
+                <EditText
+                    p1:id="@+id/txtPostingTitle"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/lblPostingTitle" />
+                <TextView
+                    p1:text="@string/createPrice"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/lblPostingPrice"
+                    p1:textAlignment="center"
+                    p1:layout_marginLeft="5dp"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/txtPostingTitle" />
+                <EditText
+                    p1:id="@+id/txtPostingPrice"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/lblPostingPrice" />
+                <TextView
+                    p1:text="@string/createDescription"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/lblPostingDescription"
+                    p1:textAlignment="center"
+                    p1:layout_marginLeft="5dp"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/txtPostingPrice" />
+                <EditText
+                    p1:id="@+id/txtPostingDescription"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/lblPostingDescription" />
+                <TextView
+                    p1:text="@string/createGameTitle"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/lblPostingGameTitle"
+                    p1:textAlignment="center"
+                    p1:layout_marginLeft="5dp"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/txtPostingDescription" />
+                <EditText
+                    p1:id="@+id/txtPostingGameTitle"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/lblPostingGameTitle" />
+                <TextView
+                    p1:text="@string/createGameSystem"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/lblPostingGameSystem"
+                    p1:textAlignment="center"
+                    p1:layout_marginLeft="5dp"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/txtPostingGameTitle" />
+                <EditText
+                    p1:id="@+id/txtPostingGameSystem"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/lblPostingGameSystem" />
+                <TextView
+                    p1:text="@string/createCondition"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/lblPostingCondition"
+                    p1:textAlignment="center"
+                    p1:layout_marginLeft="5dp"
+                    p1:textColor="#F5F5F5"
+                    p1:layout_below="@+id/txtPostingGameSystem" />
+                <Spinner
+                    p1:id="@+id/cboPostingCondition"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:prompt="@string/createCondition"
+                    p1:layout_below="@+id/lblPostingCondition" />
+                <Button
+                    p1:id="@+id/btnPostingCreate"
+                    p1:layout_width="fill_parent"
+                    p1:layout_height="wrap_content"
+                    p1:layout_below="@+id/cboPostingCondition"
+                    p1:text="@string/btnCreatePosting" />
+            </RelativeLayout>
+        </ScrollView>
+    <!-- Left Navigation Drawer -->
+        <ListView
+            p1:id="@+id/left_drawer"
+            p1:layout_width="240dp"
+            p1:layout_height="match_parent"
+            p1:layout_gravity="start"
+            p1:choiceMode="singleChoice"
+            p1:divider="#818181"
+            p1:dividerHeight="1dp"
+            p1:background="#E3F2FD" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

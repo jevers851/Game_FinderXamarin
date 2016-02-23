@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent">
+    <android.support.v7.widget.Toolbar
+        p1:id="@+id/toolbar"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:minHeight="?attr/actionBarSize"
+        p1:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+    <android.support.v4.widget.DrawerLayout
+        p1:id="@+id/drawer_layout"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent">
+        <RelativeLayout
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/relativedetailedlayout"
+            p1:background="#232323"
+            p1:textColor="#F5F5F5">
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="40dp"
+                p1:id="@+id/lbllistingtitle"
+                p1:gravity="center"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <ImageButton
+                p1:src="@android:drawable/ic_menu_gallery"
+                p1:layout_width="106dp"
+                p1:layout_height="106dp"
+                p1:id="@+id/imgListing"
+                p1:layout_below="@+id/lbllistingtitle" />
+            <TextView
+                p1:text="@string/listingEmail"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/lblemail"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_toRightOf="@+id/imgListing"
+                p1:layout_below="@+id/lbllistingtitle"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text=""
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/txtemail"
+                p1:layout_toRightOf="@+id/lblemail"
+                p1:layout_below="@+id/lbllistingtitle"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingName"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/lblname"
+                p1:layout_toRightOf="@+id/imgListing"
+                p1:layout_below="@+id/lblemail"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text=""
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/txtname"
+                p1:layout_toRightOf="@+id/lblname"
+                p1:layout_below="@+id/txtemail"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingSystem"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/lblsystem"
+                p1:layout_toRightOf="@+id/imgListing"
+                p1:layout_below="@+id/lblname"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text=""
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/txtsystem"
+                p1:layout_toRightOf="@+id/lblsystem"
+                p1:layout_below="@+id/txtname"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingPublisher"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/lblpublisher"
+                p1:layout_below="@+id/lblsystem"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text=""
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/txtpublisher"
+                p1:layout_toRightOf="@+id/lblpublisher"
+                p1:layout_below="@+id/txtsystem"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingQuality"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/lblquality"
+                p1:layout_below="@+id/lblpublisher"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text=""
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/txtquality"
+                p1:layout_toRightOf="@+id/lblquality"
+                p1:layout_below="@+id/txtpublisher"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingStatus"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/lblstatus"
+                p1:layout_below="@+id/lblquality"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text=""
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/txtstatus"
+                p1:layout_toRightOf="@+id/lblstatus"
+                p1:layout_below="@+id/txtquality"
+                p1:layout_marginTop="4dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingPrice"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:layout_below="@+id/lblstatus"
+                p1:id="@+id/lblprice"
+                p1:layout_marginTop="6dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:layout_width="match_parent"
+                p1:layout_height="27.2dp"
+                p1:layout_toRightOf="@+id/lblprice"
+                p1:layout_below="@+id/txtstatus"
+                p1:id="@+id/txtprice"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:text="@string/listingDesc"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/lbldescription"
+                p1:layout_below="@+id/lblprice"
+                p1:layout_marginTop="6dp"
+                p1:textColor="#F5F5F5" />
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="100dp"
+                p1:id="@+id/txtdescription"
+                p1:layout_below="@+id/lbldescription"
+                p1:layout_marginTop="2dp"
+                p1:textColor="#F5F5F5" />
+            <Button
+                p1:text="@string/btnContact"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/btncontact"
+                p1:layout_below="@+id/txtdescription" />
+        </RelativeLayout>
+        <ListView
+            p1:id="@+id/left_drawer"
+            p1:layout_width="240dp"
+            p1:layout_height="match_parent"
+            p1:layout_gravity="start"
+            p1:choiceMode="singleChoice"
+            p1:divider="#818181"
+            p1:dividerHeight="1dp"
+            p1:background="#E3F2FD" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
